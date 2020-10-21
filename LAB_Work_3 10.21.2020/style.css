@@ -1,0 +1,35 @@
+.block1, .block2, .block3{
+  padding: 20px;
+}
+
+.block1 {
+  width: 400px;
+  height: 180px;
+
+  background: linear-gradient(171deg, rgba(47,207,199,1) 0%, rgba(36,152,177,1) 35%, rgba(46,120,169,1) 63%, rgba(61,70,156,1) 100%);
+  border: 3px solid red;
+  color: white;
+}
+
+.block2 {
+  width: 400px;
+  height: 180px;
+
+  background-attachment: fixed;
+  background-image: url("res/loop.jpg");
+  border-width: 4px 3px 8px 1px;
+  border-color: yellow green black red;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+}
+
+.block3 {
+  width: 400px;
+  height: 180px;
+
+  background-repeat: repeat-x, no-repeat;
+  background-image: url("res/home.png"), url("res/cloud.png");
+  background-position: bottom, top left;
+  color: black;
+}

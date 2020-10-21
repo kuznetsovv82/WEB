@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.first, .second {
+  position: absolute;
+  width: 396px;
+  height: 333px;
+}
+
+.first {
+  left: 179px;
+  top: 120px;
+
+  background: rgba(255, 107, 0, 0.13);
+  border-width: 4px 12px 30px 8px;
+  border-color: #8DE97E rgba(221, 133, 0, 0.19) black red;
+  border-style: solid;
+
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 30px;
+  color: #black;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.second {
+  left: 679px;
+  top: 138px;
+
+  background-repeat: no-repeat, repeat-x;
+  background-clip: content-box;
+  background-image: url("res/1.png"), url("res/2.png");
+  background-position: center 170px, top;
+  border-width: 4px 12px 10px 12px;
+  border-color: #46BCFF rgba(82, 89, 84, 0.19) #FD3030 #C71D83;
+  border-style: solid;
+
+  font-family: 'Peralta', sans-serif;
+  font-size: 16px;
+  color: #black;
+  line-height: 21px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.t1 {
+  position: relative;
+  bottom: 70px;
+  color: #000000;
+}
+
+.t2 {
+  padding-left: 5px;
+  padding-top: 28px;
+
+  color: #000000;
+}
