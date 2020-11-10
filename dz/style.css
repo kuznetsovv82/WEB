@@ -1,0 +1,25 @@
+#title {
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+#t1, #t11{
+	text-indent: 10%;
+}
+
+#as1 {
+	text-transform: capitalize;
+}
+
+#as2 {
+	text-transform: uppercase;
+}
+
+#as3 {
+	word-spacing: 10px;
+}
+
+#as4 {
+	letter-spacing: 8px;
+}
